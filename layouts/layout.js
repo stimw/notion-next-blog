@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Container from '@/components/Container';
 import TagItem from '@/components/TagItem';
-// import { NotionRenderer } from 'react-notion-x';
-import NotionRenderer from '@/components/Renderer';
+import { NotionRenderer } from 'react-notion-x';
+// import NotionRenderer from '@/components/Renderer';
 import BLOG from '@/blog.config';
 import formatDate from '@/lib/formatDate';
 import { useLocale } from '@/lib/locale';
