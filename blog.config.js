@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'Stimw Blog',
   author: 'Stimw',
-  email: 'zhiwai98@gmail.com',
+  email: 'stimwblog@gmail.com',
   link: 'http://localhost:3000',
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -14,11 +14,11 @@ const BLOG = {
   postsPerPage: 7,
   sortByDate: true,
   showSummary: false,
-  showAbout: false,
+  showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/stimw_98',
+  socialLink: 'https://twitter.com/Pokemon',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
