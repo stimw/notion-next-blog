@@ -22,7 +22,7 @@ Thanks to Craig Hart's work!
   - **💫 New style with Tailwind CSS 3.0**
   - **🙈 Reasonable 404 Not Found page**
   - **🌓 Friendly dark mode switcher**
-  - **🗺️ Dynamic generating sitemap
+  - **🗺️ Dynamic generating sitemap**
   - ...
 
 Origin Features:
