@@ -52,7 +52,7 @@ Origin Features:
 
 - Star this repo 😉
 - Duplicate [this Notion template](https://efficacious-snapdragon-59b.notion.site/d3a1074627994f1b8475de6a919cb09c?v=d73ecce8fc274588b0c4aa775a4db279), and share it to the public
-- [Fork](https://github.com/craigary/nobelium/fork) this project
+- Fork this project
 - Customize `blog.config.js`
 - _(Optional)_ Replace `favicon.svg`, and `favicon.ico` in `/public` folder with your own
 - Deploy on [Vercel](https://vercel.com), set following environment variables：
