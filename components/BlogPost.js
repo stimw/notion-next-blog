@@ -18,7 +18,7 @@ const BlogPost = ({ post }) => {
             ))}
           </div>
         </div>
-        <Link href={`${BLOG.path}/${post.slug}`}>
+        <Link href={`${BLOG.path}/blog/${post.slug}`}>
           <div className="text-lg md:text-2xl font-title font-semibold mb-2 text-gray-800 dark:text-gray-100 hover:text-primary dark:hover:text-primary transition duration-300">
             {post.title}
           </div>
