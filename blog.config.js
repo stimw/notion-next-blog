@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Stimw Blog',
   author: 'Stimw',
   email: 'stimwblog@gmail.com',
-  link: 'https://notion-next-blog-olive.vercel.app/',
+  link: 'https://notion-next-blog-olive.vercel.app', // do not end with '/'
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
