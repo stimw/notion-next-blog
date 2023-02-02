@@ -1,38 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Notion Next Blog
 
-## Getting Started
+Demo: https://notion-next-blog-olive.vercel.app
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![screenshot](images/screenshot.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![screenshot_dark](images/screenshot_dark.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![screenshot_mobile](images/screenshot_mobile.JPEG)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**This repo based on [nobelium](https://github.com/craigary/nobelium) but with Next.js 13 and React 18.** 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Thanks to Craig Hart's work!
 
-## Learn More
+- Added features:
+  - **💫 New style with Tailwind CSS 3.0**
+  - **🙈 Reasonable 404 Not Found page**
+  - **🌓 Friendly dark mode switcher**
+  - ...
 
-To learn more about Next.js, take a look at the following resources:
+Origin Features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**🚀 &nbsp;Fast and responsive**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Fast page render and responsive design
+- Fast static generation with efficient compiler
 
-## Deploy on Vercel
+**🤖 &nbsp;Deploy instantly**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Deploy on Vercel in minutes
+- Incremental regeneration and no need to redeploy after update the content in notion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**🚙 &nbsp;Fully functional**
+
+- Comments, full width page, quick search and tag filter
+- RSS, analytics, web vital... and much more
+
+**🎨 &nbsp;Easy for customization**
+
+- Rich config options, support English & Chinese interface
+- Built with Tailwind CSS, easy for customization
+
+**🕸 &nbsp;Pretty URLs and SEO friendly**
+
+## Quick Start
+
+- Star this repo 😉
+- Duplicate [this Notion template](https://efficacious-snapdragon-59b.notion.site/d3a1074627994f1b8475de6a919cb09c?v=d73ecce8fc274588b0c4aa775a4db279), and share it to the public
+- [Fork](https://github.com/craigary/nobelium/fork) this project
+- Customize `blog.config.js`
+- _(Optional)_ Replace `favicon.svg`, and `favicon.ico` in `/public` folder with your own
+- Deploy on [Vercel](https://vercel.com), set following environment variables：
+  - `NOTION_PAGE_ID` (Required): The ID of the Notion page you previously shared to the web, usually has 32 digits after your workspace address
+  - `NOTION_ACCESS_TOKEN` (Optional, not recommended): If you decide not to share your database, you can use token to let Nobelium grab data from Notion database. You can find it in your browser cookies called `token_v2`
+    - Keep in mind Notion token is only valid for 180 days, make sure to update manually in vercel dashboard, we probably switch to Official API to resolve this issue in the future. Also, images in Notion database will not properly rendered
+- **That's it!** Easy-peasy?
+
+![pageID](https://github.com/craigary/nobelium/blob/main/pageid.png?raw=true)
+
+## Todo
+
+- [ ] Refactor with Typescript
+- [ ] Improve about/profile page
+- [ ] Imporove image previews with [lqip-modern](https://github.com/transitive-bullshit/lqip-modern)
