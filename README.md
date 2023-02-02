@@ -1,5 +1,7 @@
 # Notion Next Blog
 
+A notion-powered blog based on [nobelium](https://github.com/craigary/nobelium) but with more feature.
+
 Demo: https://notion-next-blog-olive.vercel.app
 
 ## Overview
@@ -12,7 +14,7 @@ Demo: https://notion-next-blog-olive.vercel.app
 
 ## Features
 
-**This repo based on [nobelium](https://github.com/craigary/nobelium) but with Next.js 13 and React 18.** 
+**Again, this repo based on [nobelium](https://github.com/craigary/nobelium) but with Next.js 13 and React 18.** 
 
 Thanks to Craig Hart's work!
 
