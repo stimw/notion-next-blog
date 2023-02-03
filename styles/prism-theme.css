@@ -1,5 +1,21 @@
 /* prism theme adjustments */
 
+.code-toolbar {
+  position: relative;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  @apply w-full rounded-lg 
+}
+
+.code-toolbar .toolbar {
+  @apply flex gap-1;
+  @apply text-lg;
+}
+
+.notion-code-copy {
+  display: none;
+}
+
 .notion-code {
   background-color: rgba(249, 250, 251, 1);
   border: 1px solid rgba(229, 231, 235, 1);
@@ -99,13 +115,13 @@ pre[class*='language-'] {
 .dark pre[class*='language-'] {
   color: rgba(249, 250, 251, 1);
 }
-pre::-webkit-scrollbar {
+/* pre::-webkit-scrollbar {
   display: none;
 }
 pre {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
+} */
 .token.operator,
 .token.entity,
 .token.url,
