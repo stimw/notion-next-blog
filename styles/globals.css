@@ -25,14 +25,6 @@
   src: local(''), url('/fonts/montserrat-v25-latin-600.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
-/* montserrat-700 - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''), url('/fonts/montserrat-v25-latin-700.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-
 /* open-sans-regular - latin */
 @font-face {
   font-family: 'Open Sans';
@@ -45,8 +37,8 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
-  src: local(''), url('/fonts/open-sans-v34-latin-700.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+  font-weight: 600;
+  src: local(''), url('/fonts/open-sans-v34-latin-600.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
 html {
