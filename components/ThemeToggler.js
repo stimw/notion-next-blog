@@ -3,10 +3,11 @@ import { useState, useEffect } from 'react';
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline';
 
 const ThemeToggler = () => {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
+  const theme = resolvedTheme;
   return (
     <button
       className="w-8 h-8 flex items-center justify-center hover:text-primary"
