@@ -20,7 +20,7 @@ specifiers:
   react: 18.2.0
   react-cusdis: ^2.1.3
   react-dom: 18.2.0
-  react-notion-x: ^6.15.7
+  react-notion-x: ^6.15.8
   tailwindcss: ^3.2.4
   use-ackee: ^3.0.1
 
@@ -38,7 +38,7 @@ dependencies:
   react: 18.2.0
   react-cusdis: 2.1.3_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
-  react-notion-x: 6.15.7_biqbaboplfbrettd7655fr4n2y
+  react-notion-x: 6.15.8_biqbaboplfbrettd7655fr4n2y
   use-ackee: 3.0.1_react@18.2.0
 
 devDependencies:
@@ -2260,6 +2260,17 @@ packages:
       p-queue: 7.3.0
     dev: false
 
+  /notion-utils/6.15.8:
+    resolution: {integrity: sha512-9DoGm+drsku7RLb7os9ajPFiKtqOnJbF0NXBFmnJqH8rMgTZlUQefsxGh7JwAm5ZN2NpUQJbzeOn5kGwINNOzw==}
+    engines: {node: '>=12'}
+    dependencies:
+      is-url-superb: 6.1.0
+      mem: 9.0.2
+      normalize-url: 7.2.0
+      notion-types: 6.15.6
+      p-queue: 7.3.4
+    dev: false
+
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -2387,6 +2398,14 @@ packages:
 
   /p-queue/7.3.0:
     resolution: {integrity: sha512-5fP+yVQ0qp0rEfZoDTlP2c3RYBgxvRsw30qO+VtPPc95lyvSG+x6USSh1TuLB4n96IO6I8/oXQGsTgtna4q2nQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      eventemitter3: 4.0.7
+      p-timeout: 5.1.0
+    dev: false
+
+  /p-queue/7.3.4:
+    resolution: {integrity: sha512-esox8CWt0j9EZECFvkFl2WNPat8LN4t7WWeXq73D9ha0V96qPRufApZi4ZhPwXAln1uVVal429HVVKPa2X0yQg==}
     engines: {node: '>=12'}
     dependencies:
       eventemitter3: 4.0.7
@@ -2713,8 +2732,8 @@ packages:
       warning: 4.0.3
     dev: false
 
-  /react-notion-x/6.15.7_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-5ClunWiZ/Z/IHqdqkX0/AyxQqeXi/hJofjl2sOhHdG4J7sLmcXrAIzdRfaG8+1HAOyhWs42ufR8Ikx3SrK3Sjw==}
+  /react-notion-x/6.15.8_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Gxl32peO8aTNNLNEuCVlviyYeufg9owyIx0vaecf6yKYFBZHyeadRIYlauT82/NrOX1HQzeXJxsNLm4BuzuxrQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
@@ -2724,7 +2743,7 @@ packages:
       '@matejmazur/react-katex': 3.1.3_katex@0.15.6+react@18.2.0
       katex: 0.15.6
       notion-types: 6.15.6
-      notion-utils: 6.15.6
+      notion-utils: 6.15.8
       prismjs: 1.29.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
